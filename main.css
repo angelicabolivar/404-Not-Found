@@ -13,39 +13,38 @@ body {
 header {
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 77px;
     color: #333333;
     letter-spacing: -0.08em;
 }
 .error {
+    padding-top: 100px;
     display: flex;
+    padding-bottom: 200px;
+    
 }
 img {
-    width: 540px;
-    height: 448px;
-    margin-left: 77px;
-    margin-top: 60px;
+    max-width: 520px;
+    min-width:280px;
+    height:auto;
+    width: 100%;
+    margin: 0px 70px;
+    
 }
-
-
-
 .rigth {
-
-    margin-left: 100px;
-    margin-bottom: 300px;
-    display: flex;
-    flex-direction: column;
-
-
+    padding: 10px 0px 0px 50px;
 }
 
 .rigth h1 {
+    color:#333333;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
-    font-size: 64px;
-    width: 580px;
+    font-size: 54px;
+    max-width: 580px;
     letter-spacing: -0.035em;
+    padding-bottom: 36px;
+    
 
 
 }
@@ -55,8 +54,9 @@ img {
     font-size: 24px;
     color: #4F4F4F;
     font-weight: 400;
-    width: 381px;
-    margin-bottom: 100px;
+    max-width: 381px;
+    padding-bottom: 80px;
+    letter-spacing: -0.035em;
 
 }
 
@@ -67,7 +67,7 @@ img {
     background-color: #333333;
     color: white;
     padding: 24px 43px;
-    width: 150px;
+    max-width: 150px;
 
 }
 
