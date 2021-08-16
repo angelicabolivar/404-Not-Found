@@ -80,3 +80,34 @@ footer {
     margin-bottom: 20px;
 
 }
+@media (min-width:375px) and (max-width:600px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .error {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        margin-left: 10px;
+    }
+    img {
+        margin: 0px 30px;
+        max-width: 290px;
+        height: auto;
+    }
+    .rigth {
+        padding-left: 20px;
+    }
+    .rigth h1 {
+        font-size: 44px;
+    
+    }
+    .rigth p {
+        font-size: 18px;
+    }
+    footer {
+        text-align: center;
+    }
+}
