@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,6 +9,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     max-width: 1440px;
+   margin: 0 auto;
+    
 }
 
 header {
@@ -19,9 +22,10 @@ header {
     letter-spacing: -0.08em;
 }
 main {
-    padding-top: 200px;
+    padding-top: 140px;
     display: flex;
-    padding-bottom: 340px;
+    
+    
     
 }
 main aside img {
@@ -34,6 +38,8 @@ main aside img {
 }
 section {
     padding: 10px 0px 0px 50px;
+
+    
 }
 
 section h1 {
@@ -45,8 +51,6 @@ section h1 {
     letter-spacing: -0.035em;
     padding-bottom: 36px;
     
-
-
 }
 
 section p {
@@ -74,8 +78,11 @@ section a {
 footer {
     font-family: 'Montserrat', sans-serif;
     color: #BDBDBD;
-    display: flex;
-    justify-content:center;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
     
 }
 @media (max-width:420px) {
@@ -84,8 +91,7 @@ footer {
         margin: 0 auto;
     }
     main {
-        padding-top: 100px;
-        padding-bottom: 280px;
+        padding-top: 80px;
         display: flex;
         flex-direction: column;
     }
@@ -109,5 +115,21 @@ footer {
     }
     footer {
         text-align: center;
+        position: static;
+        margin-top: 80px;
+        font: 12px;
+        margin-bottom: 20px;
+        
+
+    }
+}
+@media (max-height:750px) {
+    main{
+        padding-top: 70px;
+    }
+    footer {
+        text-align: center;
+        position: static;
+        margin-top: 80px;
     }
 }
