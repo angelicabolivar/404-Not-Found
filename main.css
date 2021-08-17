@@ -13,18 +13,18 @@ body {
 header {
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 77px;
     color: #333333;
     letter-spacing: -0.08em;
 }
-.error {
-    padding-top: 100px;
+main {
+    padding-top: 200px;
     display: flex;
-    padding-bottom: 200px;
+    padding-bottom: 340px;
     
 }
-img {
+main aside img {
     max-width: 520px;
     min-width:280px;
     height:auto;
@@ -32,11 +32,11 @@ img {
     margin: 0px 70px;
     
 }
-.rigth {
+section {
     padding: 10px 0px 0px 50px;
 }
 
-.rigth h1 {
+section h1 {
     color:#333333;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
@@ -49,7 +49,7 @@ img {
 
 }
 
-.rigth p {
+section p {
     font-family: 'Space Mono', monospace;
     font-size: 24px;
     color: #4F4F4F;
@@ -60,7 +60,7 @@ img {
 
 }
 
-.rigth a {
+section a {
     font-size: 14px;
     font-family: 'Space Mono', monospace;
     text-decoration: none;
@@ -75,36 +75,36 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: #BDBDBD;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 20px;
-
+    justify-content:center;
+    
 }
-@media (min-width:375px) and (max-width:600px) {
+@media (max-width:420px) {
     body {
         width: 90%;
         margin: 0 auto;
     }
-    .error {
+    main {
+        padding-top: 100px;
+        padding-bottom: 280px;
         display: flex;
         flex-direction: column;
     }
     header {
         margin-left: 10px;
     }
-    img {
+    main aside img {
         margin: 0px 30px;
         max-width: 290px;
         height: auto;
     }
-    .rigth {
+    section {
         padding-left: 20px;
     }
-    .rigth h1 {
+    section h1 {
         font-size: 44px;
     
     }
-    .rigth p {
+    section p {
         font-size: 18px;
     }
     footer {
